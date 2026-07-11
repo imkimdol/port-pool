@@ -1,6 +1,6 @@
 # port-pool
 
-Simple port allocation tool for managing multiple dev environments. Useful for:
+Simple port allocation tool for testing multiple dev environments in parallel. Useful for:
 
 - Git worktrees that each need unique ports
 - Running multiple copies of the same repository
