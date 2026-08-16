@@ -52,8 +52,8 @@ func SetupGuide(args []string) error {
    created. Subsequent runs are silent fast no-ops. If an env file has
    drifted, ensure repairs it before the dev server starts.
 
-See https://github.com/dittofleet/port-pool#per-project-config for the
-full schema.
+See https://github.com/dittofleet/port-pool#per-project-config-port-poolconfigjson
+for the full schema.
 `)
 	return nil
 }
