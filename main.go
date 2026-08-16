@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sylophi/port-pool/internal/cmd"
-	"github.com/sylophi/port-pool/internal/config"
-	"github.com/sylophi/port-pool/internal/update"
+	"github.com/dittofleet/port-pool/internal/cmd"
+	"github.com/dittofleet/port-pool/internal/config"
+	"github.com/dittofleet/port-pool/internal/update"
 )
 
 var errUnknownCommand = errors.New("unknown command")

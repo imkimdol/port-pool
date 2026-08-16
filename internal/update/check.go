@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sylophi/port-pool/internal/release"
+	"github.com/dittofleet/port-pool/internal/release"
 )
 
 const (

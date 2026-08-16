@@ -3,7 +3,7 @@ package state
 import (
 	"math/rand"
 
-	"github.com/sylophi/port-pool/internal/config"
+	"github.com/dittofleet/port-pool/internal/config"
 )
 
 // FindNextAvailablePorts scans the configured pool range for a contiguous

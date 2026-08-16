@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/sylophi/port-pool/internal/state"
+	"github.com/dittofleet/port-pool/internal/state"
 )
 
 func List(args []string) error {

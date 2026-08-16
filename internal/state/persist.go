@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/gofrs/flock"
-	"github.com/sylophi/port-pool/internal/config"
-	"github.com/sylophi/port-pool/internal/xdg"
+	"github.com/dittofleet/port-pool/internal/config"
+	"github.com/dittofleet/port-pool/internal/xdg"
 )
 
 const lockTimeout = 10 * time.Second

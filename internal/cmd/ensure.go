@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sylophi/port-pool/internal/config"
-	"github.com/sylophi/port-pool/internal/envfile"
-	"github.com/sylophi/port-pool/internal/state"
+	"github.com/dittofleet/port-pool/internal/config"
+	"github.com/dittofleet/port-pool/internal/envfile"
+	"github.com/dittofleet/port-pool/internal/state"
 )
 
 const ensureUsage = "usage: port-pool ensure <directory> [--check]"

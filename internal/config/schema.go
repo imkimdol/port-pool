@@ -14,7 +14,7 @@ func CheckSchemaVersion(raw map[string]json.RawMessage, path string, expected in
 		return fmt.Errorf(
 			`%s is missing the "schemaVersion" field.`+"\n"+
 				`Add "schemaVersion": %d to the file. `+
-				`See https://github.com/sylophi/port-pool/releases for migration notes.`,
+				`See https://github.com/dittofleet/port-pool/releases for migration notes.`,
 			path, expected,
 		)
 	}
@@ -27,7 +27,7 @@ func CheckSchemaVersion(raw map[string]json.RawMessage, path string, expected in
 		return fmt.Errorf(
 			`%s declares schemaVersion: %s, `+
 				`but this port-pool requires schemaVersion: %d.`+"\n"+
-				`See https://github.com/sylophi/port-pool/releases for migration notes.`,
+				`See https://github.com/dittofleet/port-pool/releases for migration notes.`,
 			path, string(val), expected,
 		)
 	}

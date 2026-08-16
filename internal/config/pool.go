@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sylophi/port-pool/internal/xdg"
+	"github.com/dittofleet/port-pool/internal/xdg"
 )
 
 const PoolSchemaVersion = 1

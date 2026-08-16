@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sylophi/port-pool/internal/state"
+	"github.com/dittofleet/port-pool/internal/state"
 )
 
 const (

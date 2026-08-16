@@ -9,13 +9,13 @@ Simple port allocation tool for testing multiple dev environments in parallel. U
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sylophi/port-pool/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/dittofleet/port-pool/main/install.sh | sh
 ```
 
 Installs the latest release to `~/.local/bin/port-pool`. Override the install location with `PORT_POOL_INSTALL_DIR`:
 
 ```sh
-PORT_POOL_INSTALL_DIR=/usr/local/bin curl -fsSL https://raw.githubusercontent.com/sylophi/port-pool/main/install.sh | sh
+PORT_POOL_INSTALL_DIR=/usr/local/bin curl -fsSL https://raw.githubusercontent.com/dittofleet/port-pool/main/install.sh | sh
 ```
 
 Supported platforms: macOS (arm64, x64), Linux (arm64, x64).

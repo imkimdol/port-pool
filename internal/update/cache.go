@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sylophi/port-pool/internal/xdg"
+	"github.com/dittofleet/port-pool/internal/xdg"
 )
 
 type Cache struct {

@@ -17,7 +17,7 @@ const (
 	BinaryName = "port-pool"
 
 	// Repo is the GitHub <owner>/<name> slug.
-	Repo = "sylophi/" + BinaryName
+	Repo = "dittofleet/" + BinaryName
 
 	// LatestAPI is the GitHub endpoint returning the latest release JSON.
 	LatestAPI = "https://api.github.com/repos/" + Repo + "/releases/latest"

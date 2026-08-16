@@ -1,4 +1,4 @@
-module github.com/sylophi/port-pool
+module github.com/dittofleet/port-pool
 
 go 1.26.3
 
